@@ -1,0 +1,47 @@
+<!-- Made by Rohit Chaku, please do inform me if any error is found -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    <script type="text/javascript" src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <table style="float: left;">
+      <tr>
+        <td><a onclick="move('A')"><img src="tic_tac_toe_images/blank.jpg" alt="Image" id="A"></a></td>
+        <td><a onclick="move('B')"><img src="tic_tac_toe_images/blank.jpg" alt="Image" id="B"></a></td>
+        <td><a onclick="move('C')"><img src="tic_tac_toe_images/blank.jpg" alt="Image" id="C"></a></td>
+      </tr>
+      <tr>
+        <td><a onclick="move('D')"><img src="tic_tac_toe_images/blank.jpg" alt="Image" id="D"></a></td>
+        <td><a onclick="move('E')"><img src="tic_tac_toe_images/blank.jpg" alt="Image" id="E"></a></td>
+        <td><a onclick="move('F')"><img src="tic_tac_toe_images/blank.jpg" alt="Image" id="F"></a></td>
+      </tr>
+      <tr>
+        <td><a onclick="move('G')"><img src="tic_tac_toe_images/blank.jpg" alt="Image" id="G"></a></td>
+        <td><a onclick="move('H')"><img src="tic_tac_toe_images/blank.jpg" alt="Image" id="H"></a></td>
+        <td><a onclick="move('I')"><img src="tic_tac_toe_images/blank.jpg" alt="Image" id="I"></a></td>
+      </tr>
+    </table>
+    <table id="score">
+      <tr>
+        <td id="skor"><input type="number" size="5" id="player1" value="0" readonly="readonly"></td>
+        <td id="skor_1" style="color: red;">Player 1</td>
+      </tr>
+      <tr>
+        <td id="skor"><input type="number" size="5" id="player2" value="0" readonly="readonly"></td>
+        <td id="skor_2">Computer</td>
+      </tr>
+      <tr>
+        <td id="skor"><input type="number" size="5" id="ties" value="0" readonly="readonly"></td>
+        <td id="skor">Ties</td>
+      </tr>
+    </table>
+    <div class="btn">
+      <input type="button" class="button" value="Play Again" onclick="playAgain()">
+      <input type="button" class="button" value="Help" onclick="help()">
+    </div>
+  </body>
+</html>

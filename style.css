@@ -1,0 +1,58 @@
+body {
+  margin-left: 20%;
+}
+
+table {
+  padding: 5px;
+}
+
+table, td {
+  border: 1px solid black;
+  margin-top: -9%;
+  margin-left: 2%;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+table#score {
+  padding-left: 80px;
+  padding-top: 5%;
+  margin-top: 12%;
+}
+
+table#score, td#skor, td#skor_1, td#skor_2 {
+  border: none;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 6px 8px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #F5F5F5;
+    color: black;
+}
+
+.button {
+    background-color: #DCDCDC;
+    border: none;
+    color: Black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btn {
+  clear: both;
+  padding-top: 30px;
+  padding-left: 18%;
+}
+
+.button:hover {
+  background-color: #A9A9A9;
+}
